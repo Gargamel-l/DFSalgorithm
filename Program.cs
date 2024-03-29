@@ -20,7 +20,6 @@ class Graph
 
         adjList[v].Add(w); // Добавить w в список v
     }
-
     // Функция, использующаяся рекурсивно DFS
     void DFSUtil(int v, Dictionary<int, bool> visited)
     {
